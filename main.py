@@ -269,6 +269,11 @@ def list_files(taskid: str = Form(...)):
 def read_root():
     return {"message": "AI4Simlation_beta server running."}
 
-
+#######
 if __name__ == "__main__":
     uvicorn.run(app='main:app', host="0.0.0.0", port=int(PORT), reload=False)
+
+
+
+
+
